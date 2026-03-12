@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MY APP</title>
+</head>
+<body>
+	<h1>Welcome to Java + Nginx!</h1>
+	<button
+		onclick="fetch('/api/hello').then(r=>r.text()).then(t=>alert(t))">
+		Call API</button>
+</body>
+</html>
